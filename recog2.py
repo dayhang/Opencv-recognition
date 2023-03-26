@@ -42,7 +42,7 @@ def faceDetect():
                     cv2.rectangle(roi_color, (ex, ey), (ex+ew, ey+eh), (0,255,0), 2)
  
         cv2.imshow("frame", frame)
-        k=cv2.waitKey(30)
+        k=cv2.waitKey(15)
  
         #실행 중 키보드 i 를 누르면 눈찾기를 on, off한다.
         if k == ord('i'):
